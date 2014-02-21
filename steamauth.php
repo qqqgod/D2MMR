@@ -23,7 +23,9 @@
 				/*echo "<p id=\"login\">test: {$OpenID->indentity}</p>";
 				$_SESSION['SteamAuth'] = $OpenID->validate() ? $OpenID->indentity : null;
 				$_SESSION['SteamID64'] = str_replace("http://steamcommunity.com/openid/id/", "", $_SESSION['SteamAuth']);*/
-					echo "<p id=\"login\">test: {$_SERVER['REQUEST_URI']}</p>";
+				$url = urldecode($_SERVER['REQUEST_URI']);
+				$piece = explode("&", $url)[3];
+				echo "<p id=\"login\">test: {$piece}</p>";
 				if (isset($_GET['openid.identity'])) {
 
 				}
