@@ -5,6 +5,33 @@
 	top:25px;
 }
 
+#logout
+{
+	position:absolute;
+	right:30px;
+	top:18px;
+	width:200px;
+	font-family: "Oxygen";
+	font-size: 13px;
+}
+
+#avatarrect
+{
+	background-color:#333333;
+	right:248px;
+	top:19px;
+	width:44px;
+	height:44px;
+}
+
+.avatar
+{
+	position:absolute;
+	right:250px;
+	top:21px;
+	width:40px;
+}
+
 #header
 {
 	width:auto;
@@ -31,6 +58,27 @@
 	left:80px;
 	top:7px;
 	width:500px;
+}
+
+#gamestracked
+{
+	position:relative;
+	bottom:10px;
+	font-size: 18px;
+}
+
+#solommr
+{
+	position:relative;
+	bottom:25px;
+	font-size: 18px;
+}
+
+#partymmr
+{
+	position:relative;
+	bottom:40px;
+	font-size: 18px;
 }
 
 #bodydiv
@@ -68,7 +116,7 @@ html, body
 	overflow: hidden;
 }
 
-p
+p, a
 {
 	font-family: "Oxygen";
 	font-size: 13px;
@@ -84,5 +132,3 @@ div
 	min_width:800px;
 	overflow: hidden;
 }
-
-

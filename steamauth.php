@@ -1,10 +1,13 @@
 <?php
-	session_start();
+
 	include "openid/openid.php";
 	include "apikey.php";
+	include "userdata.php";
+	session_start();
 
-	$OpenID = new LightOpenID("localhost");
-	$login = "";
+	$OpenID = new LightOpenID($site);
+	$displayHTML = "";
+
 	try {
 		if (!$OpenID->mode) {
 			if (isset($_GET['login'])) {
@@ -12,7 +15,7 @@
 				header("Location: {$OpenID->authUrl()}");
 			}
 			if (!isset($_SESSION['SteamAuth'])) {
-				$login = "<input type=\"image\" src=\"https://steamcommunity.com/public/images/signinthroughsteam/sits_small.png\" id=\"login\" onclick=\"login()\">";
+				$displayHTML = "<input type=\"image\" src=\"https://steamcommunity.com/public/images/signinthroughsteam/sits_small.png\" id=\"login\" onclick=\"login()\">";
 			}
 		}
 		elseif ($OpenID->mode == "cancel") {
@@ -20,30 +23,36 @@
 		}
 		else {
 			if (!isset($_SESSION['SteamAuth'])) {
-				/*echo "<p id=\"login\">test: {$OpenID->indentity}</p>";
-				$_SESSION['SteamAuth'] = $OpenID->validate() ? $OpenID->indentity : null;
-				$_SESSION['SteamID64'] = str_replace("http://steamcommunity.com/openid/id/", "", $_SESSION['SteamAuth']);*/
-				$url = urldecode($_SERVER['REQUEST_URI']);
-				$piece = explode("&", $url)[3];
-				echo "<p id=\"login\">test: {$piece}</p>";
-				if (isset($_GET['openid.identity'])) {
-
-				}
 				
+				//parse the current url to obtain SteamID
+				$url = urldecode($_SERVER['REQUEST_URI']);
+				$array = explode("&", $url); //first split the url by &
+				$identityTag = "NO TAG FOUND";
+				foreach ($array as $value) {
+					if (strpos($value, "openid.identity") !== false) {
+						$identityTag = explode("=", $value)[1];
+						break;
+					}
+				}
+
+				$array2 = explode("/", $identityTag);
+				$SteamID64 = $array2[count($array2) - 1]; //this is the final steamid64
+
+				
+				$_SESSION['SteamAuth'] = $identityTag;
+				$_SESSION['SteamID64'] = $SteamID64;
+				$_SESSION['UserData'] = new UserData($SteamID64);
+
 				if ($_SESSION['SteamAuth'] !== null) {
-					$SteamID64 = $_SESSION['SteamID64'];
-					$profile = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key={$api}&steamids={$SteamID64}");
+					$profile = file_get_contents("http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key={$apikey}&steamids={$SteamID64}");
 					$file = fopen("cache/{$SteamID64}.json", "w+");
 					fwrite($file, $profile);
 					fclose($file);
 				}
 
-				//header("Location: index.php");
+				$displayHTML =  "<div><p>{$_SESSION['UserData']->gamesTracked}</p></div>";
+				header("Location: index.php");
 			}
-		}
-
-		if (isset($_SESSION['SteamAuth'])) {
-			$login = "<a id=\"login\" href=\"?logout\">Logout</a>";
 		}
 			
 		if (isset($_GET['logout'])) {
@@ -54,14 +63,17 @@
 		}
 	}
 	catch(ErrorException $e) {
-		$login = $e->getMessage();
+		$displayHTML = $e->getMessage();
 	}
 
-	//$steam = json_decode(file_get_contents("cache/{$_SESSION['SteamID64']}.json"));
 
-	echo $login;
-
-	//echo $steam->response->players[0]->personnaname;
+	if (isset($_SESSION['SteamAuth'])) {
+		$accountData = json_decode(file_get_contents("cache/{$_SESSION['SteamID64']}.json"));
+		$name = $accountData->response->players[0]->personaname;
+		$avatar = $accountData->response->players[0]->avatar;
+		$displayHTML = "<div class=\"avatar\" id=\"avatarrect\"></div><img src={$avatar} class=\"avatar\"><div id=\"logout\"><p>Logged in as <font color=\"#00A300\">{$name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"?logout\">Logout</a></p></div>";
+	}
+	echo $displayHTML;
 
 
 ?>

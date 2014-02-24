@@ -6,8 +6,18 @@
 		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
 
 		<script>
-			function login()
-			{
+			$(document).ready(function() {
+  				console.log("Webpage loaded");
+  				if ($("#logout").length) {
+  					$("#loginstatus").hide();
+  				}
+  				else {
+  					$("#gamestracked").hide();
+  					$("#solommr").hide();
+  					$("#partymmr").hide();
+  				}
+			});
+			function login() {
 				var currentURL = $(location).attr('href');
 				currentURL = currentURL + "?login";
 				window.location = currentURL;
@@ -15,7 +25,7 @@
 		</script>
 
 	</head>
-	<title>MMR Tracker</title>
+	<title>Dota 2 MMR Tracker</title>
 	<body>
 		<div id="header">
 			<?php
@@ -26,7 +36,13 @@
 		</div>
 
 		<div id="bodydiv">
-			<p id="loginstatus">You are currently not logged in.</p>
+			<p id="loginstatus">&nbsp;&nbsp;&nbsp;You are currently not logged in.</p>
+			<?php
+				//include "userdata.php";
+				if (isset($_SESSION['UserData'])) {
+					displayHTML($_SESSION['UserData']);
+				}
+			?>
 		</div>
 
 		<div id="footer">
