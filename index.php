@@ -1,11 +1,13 @@
+<!--by Vlad Marica -->
 <!doctype html>
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
-
+		<script src="mmr.js"></script>
 		<script>
+			//run when the document loads
 			$(document).ready(function() {
   				console.log("Webpage loaded");
   				if ($("#logout").length) {
@@ -17,6 +19,7 @@
   					$("#partymmr").hide();
   				}
 			});
+			//run when the user clicks the login button
 			function login() {
 				var currentURL = $(location).attr('href');
 				currentURL = currentURL + "?login";

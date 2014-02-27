@@ -1,0 +1,22 @@
+{
+	"response": {
+		"players": [
+			{
+				"steamid": "76561198049210504",
+				"communityvisibilitystate": 3,
+				"profilestate": 1,
+				"personaname": "grilledpaninis",
+				"lastlogoff": 1393300240,
+				"profileurl": "http://steamcommunity.com/profiles/76561198049210504/",
+				"avatar": "http://media.steampowered.com/steamcommunity/public/images/avatars/70/70876b86b61ea882d0a0686bc666cb3ee4f36783.jpg",
+				"avatarmedium": "http://media.steampowered.com/steamcommunity/public/images/avatars/70/70876b86b61ea882d0a0686bc666cb3ee4f36783_medium.jpg",
+				"avatarfull": "http://media.steampowered.com/steamcommunity/public/images/avatars/70/70876b86b61ea882d0a0686bc666cb3ee4f36783_full.jpg",
+				"personastate": 0,
+				"primaryclanid": "103582791434277245",
+				"timecreated": 1316474847,
+				"personastateflags": 0
+			}
+		]
+		
+	}
+}

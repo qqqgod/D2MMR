@@ -74,11 +74,27 @@
 	font-size: 18px;
 }
 
+#setsolommr
+{
+	position:relative;
+	left:150px;
+	bottom:103px;
+	height:20px;
+}
+
 #partymmr
 {
 	position:relative;
 	bottom:40px;
 	font-size: 18px;
+}
+
+#setpartymmr
+{
+	position:relative;
+	left:110px;
+	bottom:78px;
+	height:20px;
 }
 
 #bodydiv
