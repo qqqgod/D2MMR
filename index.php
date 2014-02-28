@@ -4,7 +4,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-		<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+		<script src="jquery.js"></script>
 		<script src="mmr.js"></script>
 		<script>
 			//run when the document loads
