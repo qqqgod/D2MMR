@@ -17,13 +17,27 @@
   					$("#gamestracked").hide();
   					$("#solommr").hide();
   					$("#partymmr").hide();
+  					$("#gamesdiv").hide();
   				}
 			});
-			//run when the user clicks the login button
+
+			//run when the user clicks the Login with Steam button
 			function login() {
 				var currentURL = $(location).attr('href');
 				currentURL = currentURL + "?login";
 				window.location = currentURL;
+			}
+
+			function toggle(checked) //triggered when the player changes the game result in the Add Game tab
+			{
+				if (checked) {
+					$("#v").text("+\xa0");
+					$("#plus").css("color", "#00CC00");
+				}
+				else {
+					$("#v").text("-\xa0");
+					$("#plus").css("color", "#D63030");
+				}
 			}
 		</script>
 
@@ -41,12 +55,46 @@
 		<div id="bodydiv">
 			<p id="loginstatus">&nbsp;&nbsp;&nbsp;You are currently not logged in.</p>
 			<?php
-				//include "userdata.php";
 				if (isset($_SESSION['UserData'])) {
 					displayHTML($_SESSION['UserData']);
 				}
 			?>
 		</div>
+
+
+		<div id="gamesdiv">
+			<p id="gamesdivheader">Game History</p>
+			<?php
+				if (isset($_SESSION['UserData'])) {
+					populateGamesList();
+				}
+			?>
+		</div>
+
+
+		<div id="addgamediv">
+			<br>
+				<input id="gamewonradio" type="radio" name="result" value="" checked onchange="toggle(true)"><b>I won!</b></input>
+				<input type="radio" name="result" value="" onchange="toggle(false)"><b>I lost!</b></input>
+			<br><br>
+				<input id="sologameradio" type="radio" name="type" value="" checked><b>Solo Game</b></input>
+				<input type="radio" name="type" value=""><b>Party Game</b></input>
+			<br><br>
+				<font color="#00CC00" id="plus"><b id="v">+&nbsp;</b></font>
+				<input id="mmrchangeinput" type="number" min="0" max="100" value="25" onkeypress="return isNumber(event)">
+				<b>&nbsp;MMR</b>
+			<br><br>
+			<b>Hero:</b>
+				<select id="heroselector">
+					<option value="0">Unspecified</option>
+					<?php
+						require "dota2api.php";
+					?>
+				</select>
+			<br><br>
+				<button onclick="addGameButtonClick()">Add Game</button>
+		</div>
+
 
 		<div id="footer">
 			<p>2014 - Vlad Marica  |  Dota 2 is a registered trademark of Valve Corporation.</p>

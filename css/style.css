@@ -67,44 +67,167 @@
 	font-size: 18px;
 }
 
+/*SOLO MMR SECTION*/
 #solommr
 {
 	position:relative;
-	bottom:25px;
+	bottom:15px;
+	left:12px;
 	font-size: 18px;
 }
 
 #setsolommr
 {
 	position:relative;
+	bottom:54px;
 	left:150px;
-	bottom:103px;
 	height:20px;
 }
 
 #inputsolommr
 {
 	position:relative;
-	left:112px;
-	bottom:105px;
+	left:113px;
+	bottom:55px;
 	width:50px;
-	height:15px;
 }
+/******************/
 
+/*PARTY MMR SECTION*/
 #partymmr
 {
 	position:relative;
-	bottom:40px;
+	bottom:20px;
+	left:12px;
 	font-size: 18px;
 }
 
 #setpartymmr
 {
 	position:relative;
-	left:110px;
-	bottom:78px;
+	left:150px;
+	bottom:60px;
 	height:20px;
 }
+
+#inputpartymmr
+{
+	position:relative;
+	left:113px;
+	bottom:62px;
+	width:50px;
+}
+/******************/
+
+#addgamebutton
+{
+	position: absolute;
+	left:10px;
+}
+
+#addgamediv
+{
+	top:200px;
+	left:10px;
+	position: absolute;
+	width:200px;
+	height:200px;
+	border:2px solid;
+	background-color:#404040;
+	border-color:#1A1A1A;
+	visibility:hidden;
+	text-align: center;
+	font-family: "Oxygen";
+	font-size: 13px;
+	color:white;
+}
+
+#plus
+{
+	font-size: 22px;
+}
+
+/*GAMES LIST SECTION*/
+#gamesdiv
+{
+	position: absolute;
+	width:300px;
+	right:0px;
+	top:78px;
+	height:843px;
+	border:2px solid;
+	background-color:#404040;
+	border-color:#1A1A1A;
+
+}
+
+#gamesdivheader
+{
+	text-align: center;
+	font-size: 18px;
+	line-height: 0em;
+}
+
+.gamedata
+{
+	position: relative;
+	width: 300px;
+	height: 50px;
+	right: 3px;
+	border:2px solid;
+	background-color:#525252;
+	border-color:#1A1A1A;
+	margin-bottom: -2px;
+}
+
+.gamedata:hover
+{
+	cursor: pointer;
+	background-color:#1A1A1A;
+}
+
+.heroicon
+{
+	position: absolute;
+	right: 100px;
+	left: 10px;
+	top: 9px;
+}
+
+.heroiconoutline
+{
+	position: relative;
+	top: 3px;
+	left: 4px;
+}
+
+.gameresulttext
+{
+	position: relative;
+	font-family: "Oxygen";
+	font-size: 16px;
+	color:white;
+	bottom: 20px;
+	left: 5px;
+}
+
+.gamemmrtext
+{
+	position: relative;
+	font-family: "Oxygen";
+	font-size: 16px;
+	bottom: 14px;
+	left: 15px;
+}
+
+.queuetype
+{
+	position: relative;
+	bottom: 35px;
+	left: 90px;
+
+}
+/*******************/
 
 #bodydiv
 {
@@ -113,6 +236,7 @@
 	width:auto;
 	min-height: 100%;
 	background-color:#333333;
+
 }
 
 #footer
@@ -138,7 +262,9 @@ html, body
  	float: left;
 	width:100%;
 	height:100%;
-	overflow: hidden;
+	min-width: 800px;
+	min-height: 800px;
+	overflow-y: hidden;
 }
 
 p, a
@@ -153,7 +279,5 @@ div
 	padding:0px;
 	margin:0px;
 	width:auto;
-	box-sizing: border-box;
-	min_width:800px;
 	overflow: hidden;
 }

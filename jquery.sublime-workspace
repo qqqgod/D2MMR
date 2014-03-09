@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"game",
+				"gamedata"
+			],
+			[
+				"create",
+				"createGameHTML"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"toggle",
+				"toggleAddGameDialog"
+			],
+			[
+				"queu",
+				"queueType"
+			],
+			[
+				"echo",
+				"echoGameHTML"
+			],
+			[
+				"butto",
+				"buttonHTML"
+			],
+			[
+				"qu",
+				"queueType"
+			],
+			[
+				"mmr",
+				"mmrChange"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"games",
+				"gamesTracked"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"solo",
+				"soloMMR"
+			],
+			[
+				"User",
+				"UserData"
+			],
+			[
+				"stea",
+				"steamID64"
+			],
+			[
+				"identity",
+				"identityTag"
+			],
+			[
+				"iden",
+				"identityTag"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"htmls",
+				"htmlspecialchars_decode"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"curren",
+				"currentURL"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"Get",
+				"GetOrigin"
+			],
+			[
+				"Init",
+				"InitSpawners"
+			],
+			[
+				"Do",
+				"DOTA_TEAM_GOODGUYS"
+			],
+			[
+				"Rad",
+				"RadiantTickets"
+			],
+			[
+				"Dire",
+				"DireTickets"
+			],
+			[
+				"upd",
+				"updateCount"
+			],
+			[
+				"Ra",
+				"RadiantTickets"
+			],
+			[
+				"rad",
+				"RadiantTickets"
+			],
+			[
+				"upda",
+				"UpdateScores"
+			],
+			[
+				"Up",
+				"UpdateTimers"
+			],
+			[
+				"GetT",
+				"GetTeam"
+			],
+			[
+				"has",
+				"hasInit"
+			],
+			[
+				"Remov",
+				"RemoveModifierByName"
+			],
+			[
+				"heal",
+				"healthModifier"
+			],
+			[
+				"Upd",
+				"UpdateTowers"
+			],
+			[
+				"tower",
+				"towerCount"
+			],
+			[
+				"Domin",
+				"DominionMode"
+			],
+			[
+				"Player",
+				"PlayerResource"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2693,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "userdata.php",
+			"settings":
+			{
+				"buffer_size": 6006,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mmr.js",
+			"settings":
+			{
+				"buffer_size": 2613,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "userdata/76561198045264681.json",
+			"settings":
+			{
+				"buffer_size": 1126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dota2api.php",
+			"settings":
+			{
+				"buffer_size": 323,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "steamauth.php",
+			"settings":
+			{
+				"buffer_size": 2432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "apikey.php",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 3167,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.255/npc_abilities_override.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.101/npc_heroes_custom.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.752/npc_abilities_custom.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.851/herolist.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.451/npc_units_custom.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.065/npc_abilities_custom.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.936/npc_abilities_override.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.518/npc_heroes_custom.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.339/custom_ui.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.151/!README_FOF!.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/resource/overviews/rota.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/world_map_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/custom_events.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.976/!README_FOF!.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.117/!README_FOF!.txt",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata/76561198045264681.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata.php",
+		"/C/Users/Vlad/Downloads/style.css",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/dota2api.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/apikey.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/css/style.css",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/mmr.js",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/steamauth.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/index.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata/76561198061893618.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/loginurl.txt",
+		"/D/Users/Vlad/Desktop/Vlad/School Work/Grade 8/Science/Silverfacts.txt",
+		"/D/Hearthstone/Strings/enUS/GLOBAL.txt",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/playerdata.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/cache/76561198045264681.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/openid/openid.php",
+		"/C/Users/Vlad/Downloads/76561198045264681",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/index.html",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.259/example.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/mmr.html",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/resource/dota_english.txt",
+		"/D/DotaServer/steam_appid.txt",
+		"/C/Users/Vlad/Desktop/test.html",
+		"/C/xampp/phpMyAdmin/pmd_display_field.php",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/test.php",
+		"/C/xampp/webdav/webdav.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.347/Installation Instruction.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/vscripts/item_firework_rocket3.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/vscripts/nian_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/scripts/maps/Rota.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/scripts/vscripts/util.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/scripts/vscripts/rota.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/vscripts/nian.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/vscripts/item_firework_rocket.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/npc/npc_items_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/scripts/custom_events.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/resource/overviews/nian2.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/resource/rota_english.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/nian/addoninfo.txt",
+		"/C/Users/Vlad/Desktop/API key.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/game_sounds_music.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/resource/dominion_english.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/npc_units.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/npc/npc_units_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/npc/npc_abilities_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/gamemodes.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/frostivus.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/dominion.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/addoninfo.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.588/addability.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.468/todo.txt",
+		"/D/DotaServer/dota/gameinfo.txt",
+		"/D/DotaServer/test.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/maps/frostivus.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/spiderling_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_units_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/ai_core.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/gyrocopter_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/broodmother_egg_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/gamemodes/fatometer.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/frota.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/maps/dominion.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/frostivus_english.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/broodking_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_attack_ancient.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_catapult.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/frota.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/flash3/holdoutinstructions.swf",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/flash3/custom_ui.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/VoteButton.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/timers.lua",
+		"/C/Users/Vlad/AppData/Local/Temp/npc_abilities.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/items.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/activelist.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_items_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/npc/npc_units_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_wraith_king.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/ogre_magi.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/actiontest.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/frostivus_logging.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/npc/npc_heroes_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/custom_events.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_abilities_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_abilities_override.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/util.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/custom_events.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\SteamGames\\SteamApps\\common\\dota 2 beta\\dota\\addons-disabled\\frostivus\\scripts\\vscripts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"E60000",
+			"readFromFile()",
+			">\n",
+			"	\n",
+			"windrunner",
+			"gamestart",
+			"DOTA_TEAM_NOTEAM",
+			"DOTA_TEAM_NOTEAM)",
+			"end",
+			"modify",
+			"CreateUnitByName",
+			"ExecuteOrderFromTable",
+			"execute",
+			"gyro",
+			"target",
+			"vEnemiesRemaining",
+			"spawned",
+			"creep",
+			"_readWaypointKeyValues",
+			"self:_readWaypointKeyValues",
+			"\"RandomSpawns\"",
+			"_readGameKeyValues",
+			"ai",
+			"StartupScript",
+			"CreateBehaviorSystem",
+			"ai",
+			"ai ",
+			"ai",
+			"spawn",
+			"OnNPCSpawned",
+			"OnMatchDone",
+			"makeTex",
+			"makeTes",
+			"updateScore",
+			"makeTextField",
+			"removeSpecial",
+			"updateScoreHook",
+			"score",
+			"timer",
+			"update",
+			"gamemodes",
+			"telepo",
+			"telepotr",
+			"DOTA_TEAM_GOODGUYS",
+			"channel",
+			"missile",
+			"DOTA_UNIT_CAP_NO_ATTACK",
+			".\n",
+			"neutral",
+			"KeyValue",
+			"KeyValueFromInt",
+			"keyvalue",
+			"key",
+			"tower",
+			"__KeyValueFromString",
+			"tower",
+			"DOTA_TEAM",
+			"barracks",
+			"DOTA_UNIT_CAP",
+			"warlock"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Vlad\\Documents\\GitHub\\D2MMR"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2528,
+								2528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "userdata.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1159,
+								1159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mmr.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2038,
+								2038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "userdata/76561198045264681.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dota2api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "steamauth.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1919,
+								1919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "apikey.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1985,
+								1985
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2745.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
