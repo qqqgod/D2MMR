@@ -68,7 +68,7 @@
 	if (isset($_SESSION['SteamAuth'])) {
 		$accountData = json_decode(file_get_contents("cache/{$_SESSION['SteamID64']}.json"));
 		$name = $accountData->response->players[0]->personaname;
-		$avatar = $accountData->response->players[0]->avatar;
+		$avatar = $accountData->response->players[0]->avatarfull;
 		$displayHTML = "<div class=\"avatar\" id=\"avatarrect\"></div><img src={$avatar} class=\"avatar\"><div id=\"logout\"><p>Logged in as <font color=\"#00A300\">{$name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><a href=\"?logout\">Logout</a></p></div>";
 	}
 	echo $displayHTML;

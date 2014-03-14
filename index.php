@@ -81,7 +81,7 @@
 				<input type="radio" name="type" value=""><b>Party Game</b></input>
 			<br><br>
 				<font color="#00CC00" id="plus"><b id="v">+&nbsp;</b></font>
-				<input id="mmrchangeinput" type="number" min="0" max="100" value="25" onkeypress="return isNumber(event)">
+				<input id="mmrchangeinput" type="number" min="0" max="35" value="25" onkeypress="return isNumber(event)">
 				<b>&nbsp;MMR</b>
 			<br><br>
 			<b>Hero:</b>

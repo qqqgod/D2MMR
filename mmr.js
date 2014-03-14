@@ -72,6 +72,12 @@ function addGameButtonClick()
 	var q = document.getElementById("sologameradio").checked;
 	var mmr = $("#mmrchangeinput").val();
 
+	if (mmr > 35) {
+		alert("You cannot gain/lose more than 35 MMR in one game");
+		return;
+	}
+	var resultHTML;
+	
 	$.ajax({
 		url: 'userdata.php',
 		data: {
@@ -87,6 +93,20 @@ function addGameButtonClick()
 			result = result.replace("\xa0", "&nbsp;");
 			$("#gamesdivheader").after(result); //add the HTML to the top of the games div
 			toggleAddGameDialog(); //hide the dialog afterwards
+
+			$.ajax({
+				url: 'userdata.php',
+				data: {
+					GetGameData: '1'
+				},
+				type: 'post',
+				success: function(result) {
+					result = $.parseJSON(result);
+					$("#solommr").text("Solo MMR: " + result.soloMMR);
+					$("#partymmr").text("Party MMR: " + result.partyMMR);
+					$("#gamestracked").text("Games Tracked: " + result.gameCount);
+				}
+			});
 		}
 	});
 }
