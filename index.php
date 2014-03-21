@@ -66,9 +66,39 @@
 			<p id="gamesdivheader">Game History</p>
 			<?php
 				if (isset($_SESSION['UserData'])) {
-					populateGamesList();
+					populateGamesList(1);
 				}
 			?>
+			<div id="gamelistnavigator">
+				<button id="prevpage"><b><</b></button>
+				<font id="currentpage" style="font-family:Oxygen;color:white">Page 1/1</font>
+				<button id="nextpage"><b>></b></button>
+				<script>
+					var prevButton = $("#prevpage");
+					var nextButton = $("#nextpage");
+
+					$.ajax({
+						url: 'userdata.php',
+						data: {
+							GetGameData: '1'
+						},
+						type: 'post',
+						success: function(result) {
+							//result = $.parseJSON(result);
+							alert(result);
+						}
+					});
+
+
+					prevButton.click(function() {
+						
+					});
+
+					nextButton.click(function() {
+						
+					});
+				</script>
+			</div>
 		</div>
 
 

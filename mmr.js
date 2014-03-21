@@ -97,7 +97,7 @@ function addGameButtonClick()
 			$.ajax({
 				url: 'userdata.php',
 				data: {
-					GetGameData: '1'
+					GetMMRData: '1'
 				},
 				type: 'post',
 				success: function(result) {

@@ -162,6 +162,13 @@
 
 }
 
+#gamelistnavigator
+{
+	position:relative;
+	text-align: center;
+	top:10px;
+}
+
 #gamesdivheader
 {
 	text-align: center;

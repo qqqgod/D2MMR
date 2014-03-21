@@ -9,6 +9,10 @@
 
 		public $games = array();
 
+		public $gpp = 10; //games per page
+		public $currentPage = 1;
+		public $pages = 1;
+
 		public function __construct($steamID)
 		{
 			$this->steamID64 = $steamID;
@@ -66,6 +70,12 @@
    			$this->soloMMR = $currentSoloMMR;
    			$this->partyMMR =$currentPartyMMR;
    			$this->saveToFile();
+   			$this->calculatePages();
+   		}
+
+   		public function calculatePages()
+   		{
+   			$this->pages = ceil(count($this->games) / $this->gpp);
    		}
 
    		public function saveToFile()
@@ -161,6 +171,7 @@
 
 	/****************************************/
 
+
    	function getJSONValue($data, $key, $default)
    	{
    			return $data[$key] ? $data[$key] : $default;
@@ -211,7 +222,7 @@
 		return $gameHTML;
 	}
 
-	function populateGamesList()
+	function populateGamesList($page)
 	{
 		$user = $_SESSION['UserData'];
 		$rev = array_reverse($user->getGames()); //reverse the array of games so newest is first
@@ -257,13 +268,29 @@
 		echo str_replace("\xa0", "&nbsp;", createGameHTML($gamedata));
 	}
 
-	elseif (isset($_POST['GetGameData'])) //returns the amount to games tracked
+	elseif (isset($_POST['GetMMRData'])) //returns the amount of games tracked and mmr
 	{
 		$data = array(
 			"gameCount" => count($_SESSION['UserData']->getGames()),
 			"soloMMR" => $_SESSION['UserData']->getSoloMMR(),
 			"partyMMR" => $_SESSION['UserData']->getPartyMMR()
 		);
+		echo json_encode($data);
+	}
+
+	elseif (isset($_POST['GetGameData'])) //returns games list for the gamelist sidebar thing
+	{
+		$user = $_SESSION['UserData'];
+		$gpp = $user->gpp;
+		$games = array_reverse($user->getGames());
+		$pages = ceil(count($games) / $gpp);
+
+		$data = array(
+			"gpp" => $gpp,
+			"pages" => $pages,
+			"games" => $games
+		);
+
 		echo json_encode($data);
 	}
 ?>

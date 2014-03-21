@@ -1,27 +1,21 @@
 {
     "steamid": "76561198061893618",
-    "soloMMR": 11,
-    "partyMMR": 36,
-    "baseSoloMMR": 1,
+    "soloMMR": 49,
+    "partyMMR": 1,
+    "baseSoloMMR": -1,
     "basePartyMMR": 1,
     "games": [
         {
-            "hero": "0",
+            "hero": "antimage",
             "queueType": "solo",
             "gameWon": "true",
             "mmrChange": 25
         },
         {
-            "hero": "0",
+            "hero": "razor",
             "queueType": "solo",
-            "gameWon": "false",
-            "mmrChange": 15
-        },
-        {
-            "hero": "visage",
-            "queueType": "party",
             "gameWon": "true",
-            "mmrChange": 35
+            "mmrChange": 25
         }
     ]
 }
