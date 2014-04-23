@@ -1,10 +1,34 @@
 {
     "steamid": "76561198061893618",
-    "soloMMR": 49,
-    "partyMMR": 1,
-    "baseSoloMMR": -1,
-    "basePartyMMR": 1,
+    "soloMMR": 1335,
+    "partyMMR": 1026,
+    "baseSoloMMR": 1000,
+    "basePartyMMR": 1000,
     "games": [
+        {
+            "hero": "crystal_maiden",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "crystal_maiden",
+            "queueType": "solo",
+            "gameWon": "false",
+            "mmrChange": 25
+        },
+        {
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 35
+        },
         {
             "hero": "antimage",
             "queueType": "solo",
@@ -12,7 +36,79 @@
             "mmrChange": 25
         },
         {
-            "hero": "razor",
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "bane",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "earthshaker",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "crystal_maiden",
+            "queueType": "party",
+            "gameWon": "false",
+            "mmrChange": 34
+        },
+        {
+            "hero": "storm_spirit",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "morphling",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "crystal_maiden",
+            "queueType": "party",
+            "gameWon": "true",
+            "mmrChange": 35
+        },
+        {
+            "hero": "0",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "0",
+            "queueType": "party",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "storm_spirit",
+            "queueType": "solo",
+            "gameWon": "true",
+            "mmrChange": 25
+        },
+        {
+            "hero": "legion_commander",
             "queueType": "solo",
             "gameWon": "true",
             "mmrChange": 25

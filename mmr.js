@@ -48,22 +48,6 @@ function setPartyMMR()
 	setMMRButtonClick("partymmr");
 }
 
-//toggles the visibility of the Add Game div
-function toggleAddGameDialog()
-{
-	var button = $("#addgamebutton");
-	if (button.text() === "Add Game") {
-		var w = button.width();
-		$("#addgamediv").css("visibility", "visible");
-		button.text("Cancel");
-		button.width(w);
-	}
-	else if (button.text() === "Cancel") {
-		$("#addgamediv").css("visibility", "hidden");
-		button.text("Add Game");
-	}
-}
-
 //called when a user adds a game with the Add Game popup
 function addGameButtonClick()
 {
@@ -90,7 +74,8 @@ function addGameButtonClick()
 		type: 'post',
 		success: function(result) //returns HTML for displaying the new game data
 		{
-			result = result.replace("\xa0", "&nbsp;");
+			window.location = "index.php?page=1";
+			/*result = result.replace("\xa0", "&nbsp;");
 			$("#gamesdivheader").after(result); //add the HTML to the top of the games div
 			toggleAddGameDialog(); //hide the dialog afterwards
 
@@ -106,7 +91,7 @@ function addGameButtonClick()
 					$("#partymmr").text("Party MMR: " + result.partyMMR);
 					$("#gamestracked").text("Games Tracked: " + result.gameCount);
 				}
-			});
+			});*/
 		}
 	});
 }

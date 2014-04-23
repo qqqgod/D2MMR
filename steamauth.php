@@ -1,11 +1,13 @@
 <?php
 
 	include "openid/openid.php";
-	include "apikey.php";
 	include "userdata.php";
-
 	$OpenID = new LightOpenID($site);
 	$displayHTML = "";
+
+	if(!isset($_SESSION)){
+   		session_start();
+	}
 
 	try {
 		if (!$OpenID->mode) {
@@ -22,7 +24,8 @@
 		}
 		else {
 			if (!isset($_SESSION['SteamAuth'])) {
-				
+				//http://localhost/?login&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=id_res&openid.op_endpoint=https%3A%2F%2Fsteamcommunity.com%2Fopenid%2Flogin&openid.claimed_id=http%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198061893618&openid.identity=http%3A%2F%2Fsteamcommunity.com%2Fopenid%2Fid%2F76561198061893618&openid.return_to=http%3A%2F%2Flocalhost%2F%3Flogin&openid.response_nonce=2014-02-25T11%3A25%3A54ZSc3yqTrZ8mZmQoZ4oCKh4cLx5nw%3D&openid.assoc_handle=1234567890&openid.signed=signed%2Cop_endpoint%2Cclaimed_id%2Cidentity%2Creturn_to%2Cresponse_nonce%2Cassoc_handle&openid.sig=52i3fSadcxNu%2FdgkLp0Z%2BtWNY%2BU%3D
+
 				//parse the current url to obtain SteamID
 				$url = urldecode($_SERVER['REQUEST_URI']);
 				$array = explode("&", $url); //first split the url by &
