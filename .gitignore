@@ -216,3 +216,4 @@ pip-log.txt
 *.sublime-workspace
 *.sublime-workspace
 jquery.sublime-workspace
+*.sublime-workspace

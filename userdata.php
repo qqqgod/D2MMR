@@ -9,7 +9,7 @@
 
 		public $games = array();
 
-		public $gpp = 10; //games per page
+		public $gpp = 12; //games per page
 		public $currentPage = 1;
 		public $pages = 1;
 
@@ -38,6 +38,8 @@
    			$data = json_decode(file_get_contents("userdata/{$this->steamID64}.json"), true);
    			$this->soloMMR = getJSONValue($data, 'soloMMR', -1);
    			$this->partyMMR = getJSONValue($data, 'partyMMR', -1);
+   			$this->baseSoloMMR = getJSONValue($data, 'baseSoloMMR', -1);
+   			$this->basePartyMMR = getJSONValue($data, 'basePartyMMR', -1);
    			$this->loadGameList($data);
    		}
 
@@ -68,7 +70,7 @@
    			}
 
    			$this->soloMMR = $currentSoloMMR;
-   			$this->partyMMR =$currentPartyMMR;
+   			$this->partyMMR = $currentPartyMMR;
    			$this->saveToFile();
    			$this->calculatePages();
    		}
@@ -135,6 +137,7 @@
    		public function addGame(GameData $data)
    		{
    			array_push($this->games, $data);
+   			$this->calculatePages();
    			$this->saveToFile();
    		}
 	}
@@ -200,7 +203,7 @@
 		}
 		echo "</div>";
 		if ($data->getSoloMMR() !== "N/A" && $data->getPartyMMR() !== "N/A") {
-			echo "<button id=\"addgamebutton\" onclick=\"toggleAddGameDialog()\">Add Game</button>";
+			echo "<button id=\"addgamebutton\" onclick=\"showAddGameDialog()\">Add Game</button>";
 		}
 	}
 
@@ -212,7 +215,7 @@
 		$color = $game->gameWon == "true" ? "#00CC00" : "#E60000";
 		$hero_icon = $game->hero != "0" ? "http://cdn.dota2.com/apps/dota2/images/heroes/".$game->hero."_sb.png" : "/images/no_hero.png";
 
-		$gameHTML = "<div class=\"gamedata\">".
+		$gameHTML = "<div class=\"gamedata\" onclick=\"showEditGameDialog(this)\">".
 			"<img class=\"heroiconoutline\" src=\"/images/herobox.png\">".
 			"<img class=\"heroicon\" src={$hero_icon}>".
 			"<b class=\"gameresulttext\">{$result}</b>".
@@ -227,10 +230,17 @@
 		$user = $_SESSION['UserData'];
 		$rev = array_reverse($user->getGames()); //reverse the array of games so newest is first
 		$count = count($rev);
+		$startIndex = 1 + (($page - 1)* $user->gpp);
+		$endIndex = $page * $user->gpp;
+		$index = 1;
+
 		foreach ($rev as $game)
 		{
-			$gameHTML = createGameHTML($game);
-			echo $gameHTML;
+			if ($index >= $startIndex && $index <= $endIndex) {
+				$gameHTML = createGameHTML($game);
+				echo $gameHTML;
+			}
+			$index++;
 		}
 	}
 
@@ -265,7 +275,7 @@
 		$gamedata->currentMMR = $user->getMMR($queue);
 		$user->addGame($gamedata);
 		$user->addMMR($queue, $mmrChange * ($gameWon == "true" ? 1 : -1));
-		echo str_replace("\xa0", "&nbsp;", createGameHTML($gamedata));
+		//echo str_replace("\xa0", "&nbsp;", createGameHTML($gamedata));
 	}
 
 	elseif (isset($_POST['GetMMRData'])) //returns the amount of games tracked and mmr

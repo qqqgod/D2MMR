@@ -1,0 +1,36 @@
+<html>  
+	<head>    
+		<!--Load the AJAX API-->    
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>   
+		<script type="text/javascript"></script>
+		<script>
+			google.load('visualization', '1.0', {'packages':['corechart']});
+			google.setOnLoadCallback(drawChart);
+			 
+			function drawChart() 
+			{
+				 var data = google.visualization.arrayToDataTable([          
+				 	['Games', 'Party MMR', 'Solo MMR'],          
+				 	['0',  1000,      400],          
+				 	['2',  1170,      460],          
+				 	['8',  660,       1120],          
+				 	['10',  1030,      540]        
+				 ]);
+
+				var options = {         
+					title: 'Ranked MMR',
+					pointSize: 3       
+				};
+
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));        
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+
+	<body>
+		<!--Div that will hold the pie chart-->    
+		<div id="chart_div" style="width:800; height:500">
+		</div>  
+	</body>
+</html>
