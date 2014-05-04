@@ -2,14 +2,34 @@
 	<head>
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="utils.js"></script>
 		<script type="text/javascript" src="graph.js"></script>
+
+		<script type="text/javascript">
+			//load google charts library
+			var graph;
+			google.load("visualization", "1", {packages:["corechart"]}); 
+			google.setOnLoadCallback(function() {  
+    			graph = new MMRGraph(); 
+    			graph.loadComplete();  
+			}); 
+
+			function runTestCode()
+			{
+				console.log(Math.getRandomInt(1, 2));
+			}
+		</script>
 	</head>
 	<body>
-		<script>
-
-		</script>
-		<input type="checkbox" id="chkSolo" onclick="" checked>Solo MMR</input>
-		<input type="checkbox" id="chkParty" checked>Party MMR</input>
-		<div id="graph_div" style="width: 1000px; height: 600px;"></div>
+		<input type="checkbox" id="chkSolo" onclick="graph.changeColumns()" checked>Solo MMR</input>
+		<input type="checkbox" id="chkParty" onclick="graph.changeColumns()" checked>Party MMR</input>
+		<div id="graph_div" style="width: 900px; height: 550px;"></div>
+		Y Axis:
+		<button onclick="runTestCode()">+</button>
+		<button onclick="runTestCode()">-</button>
+		<br>
+		X Axis:
+		<button onclick="runTestCode()">+</button>
+		<button onclick="runTestCode()">-</button>
 	</body>
 </html>

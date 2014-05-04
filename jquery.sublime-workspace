@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align"
+				"get",
+				"getRandomInt"
+			],
+			[
+				"ra",
+				"getRandomInt"
 			],
 			[
 				"game",
@@ -187,62 +191,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 3387,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "userdata.php",
-			"settings":
-			{
-				"buffer_size": 8450,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "userdata/76561198061893618.json",
-			"settings":
-			{
-				"buffer_size": 430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mmr.js",
-			"settings":
-			{
-				"buffer_size": 3259,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "steamauth.php",
-			"settings":
-			{
-				"buffer_size": 2355,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "apikey.php",
-			"settings":
-			{
-				"buffer_size": 77,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 3255,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -275,10 +223,69 @@
 	},
 	"file_history":
 	[
-		"/U/GitHub/D2MMR/loginurl.txt",
-		"/U/GitHub/D2MMR/userdata/76561198061893618.json",
-		"/U/GitHub/D2MMR/dota2api.php",
-		"/U/GitHub/D2MMR/userdata/76561198045264681.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/tests/graph.html",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/index.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/tests/utils.js",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/tests/graph.js",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/customheroes/scripts/custom_events.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/customheroes/resource/overviews/customheroes.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/vscripts/vision_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/!README_FOF!.txt",
+		"/D/DotaServer/dota/maplist.txt",
+		"/D/DotaServer/dota/gameinfo.txt",
+		"/D/DotaServer/dota/steam_appid.txt",
+		"/D/DotaServer/steam_appid.txt",
+		"/C/Users/Vlad/Documents/GitHub/ImgurUploader/ImgurUploader/bin/quintinity/uploader/InstallWindowEvents.class",
+		"/C/Users/Vlad/Documents/GitHub/ImgurUploader/ImgurUploader/bin/quintinity/uploader/MainWindow.class",
+		"/C/Program Files (x86)/Steam/skins/skins_readme.txt",
+		"/C/Program Files (x86)/JSmooth 0.9.9-7/readme.txt",
+		"/C/Users/Vlad/Desktop/test/ImgurUploader.jar",
+		"/C/Users/Vlad/Desktop/test/imgur.jar",
+		"/C/Users/Vlad/AppData/Local/Temp/activelist.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/npc_heroes.txt",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/dota2api.php",
+		"/D/Users/Vlad/Desktop/Vlad/imgur.jar",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/resource/dota_english.txt",
+		"/C/Users/Vlad/AppData/Local/Temp/holdout_6.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/vscripts/util.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/vscripts/rota.lua",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/cache/76561198072278389.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/cache/76561198049210504.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/cache/76561198045264681.json",
+		"/D/Visual Basic 6.0[A4]/Visual Basic 6.0[A4]/key.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_Dominion/scripts/npc/npc_heroes_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/NewHudSRC/infector.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/NewHudSRC/frotaHud.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/nian/scripts/vscripts/nian.lua",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/css/style.css",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/mmr.js",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/ValveLib/Globals.as",
+		"/D/Movies/Source Code ( 2011 ) [1080p]/Other/AhaShare.com.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_Dominion/scripts/custom_events.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/ValveLib/Events/ShopEvent.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/Skill.as",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/frota.as",
+		"/C/Users/Vlad/Desktop/items.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/flash3/custom_ui.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/resource/flash3/custom_ui.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/nian/scripts/npc/npc_abilities_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/nian/scripts/shops/nian3_shops.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/nian/scripts/vscripts/nian_ai.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/RotA/scripts/vscripts/rota.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/RotA/scripts/vscripts/addon_init.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/RotA/scripts/vscripts/util.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/RotA/scripts/vscripts/json.lua",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/resource/flash3/custom_ui.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/resource/flash3/fofplayerloading.swf",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/npc/npc_units_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/npc/npc_abilities_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/npc/npc_items_custom.txt",
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/world_map_custom.txt",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/steamauth.php",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata/76561198045264681.json",
+		"/C/Users/Vlad/Documents/GitHub/D2MMR/apikey.php",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.255/npc_abilities_override.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.101/npc_heroes_custom.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.752/npc_abilities_custom.txt",
@@ -290,32 +297,20 @@
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.339/custom_ui.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.151/!README_FOF!.txt",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/resource/overviews/rota.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/world_map_custom.txt",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/rota/scripts/custom_events.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.976/!README_FOF!.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.117/!README_FOF!.txt",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata/76561198045264681.json",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata.php",
 		"/C/Users/Vlad/Downloads/style.css",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/dota2api.php",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/apikey.php",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/css/style.css",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/mmr.js",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/steamauth.php",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/index.php",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/userdata/76561198061893618.json",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/loginurl.txt",
 		"/D/Users/Vlad/Desktop/Vlad/School Work/Grade 8/Science/Silverfacts.txt",
 		"/D/Hearthstone/Strings/enUS/GLOBAL.txt",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/playerdata.php",
-		"/C/Users/Vlad/Documents/GitHub/D2MMR/cache/76561198045264681.json",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/openid/openid.php",
 		"/C/Users/Vlad/Downloads/76561198045264681",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/index.html",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.259/example.php",
 		"/C/Users/Vlad/Documents/GitHub/D2MMR/mmr.html",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/resource/dota_english.txt",
-		"/D/DotaServer/steam_appid.txt",
 		"/C/Users/Vlad/Desktop/test.html",
 		"/C/xampp/phpMyAdmin/pmd_display_field.php",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/test.php",
@@ -348,7 +343,6 @@
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/RotA/addoninfo.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.588/addability.txt",
 		"/C/Users/Vlad/AppData/Local/Temp/Rar$DIa0.468/todo.txt",
-		"/D/DotaServer/dota/gameinfo.txt",
 		"/D/DotaServer/test.txt",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/maps/frostivus.txt",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/spiderling_ai.lua",
@@ -356,34 +350,7 @@
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/ai_core.lua",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/gyrocopter_ai.lua",
 		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/broodmother_egg_ai.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/gamemodes/fatometer.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/frota.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/maps/dominion.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/frostivus_english.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/addon_init.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/broodking_ai.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_attack_ancient.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_catapult.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/frota.as",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/flash3/holdoutinstructions.swf",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/resource/flash3/custom_ui.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/HudSRC/VoteButton.as",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/timers.lua",
-		"/C/Users/Vlad/AppData/Local/Temp/npc_abilities.txt",
-		"/C/Users/Vlad/AppData/Local/Temp/items.txt",
-		"/C/Users/Vlad/AppData/Local/Temp/activelist.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_items_custom.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/npc/npc_units_custom.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/holdout_ai_wraith_king.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/ogre_magi.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/actiontest.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/vscripts/frostivus_logging.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/npc/npc_heroes_custom.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/custom_events.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_abilities_custom.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/frostivus/scripts/npc/npc_abilities_override.txt",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/vscripts/util.lua",
-		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons/Dominion/scripts/custom_events.txt"
+		"/D/SteamGames/SteamApps/common/dota 2 beta/dota/addons-disabled/_frota/scripts/vscripts/gamemodes/fatometer.lua"
 	],
 	"find":
 	{
@@ -402,6 +369,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");\n",
+			"UTIL_REMOVE",
+			"requestCurrentState",
+			"this.requestCurrentState",
+			"gamesTracked",
 			"E60000",
 			"readFromFile()",
 			">\n",
@@ -473,7 +445,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"folders":
@@ -481,220 +453,13 @@
 		{
 			"follow_symlinks": true,
 			"path": "C:\\Users\\Vlad\\Documents\\GitHub\\D2MMR"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "U:\\GitHub\\D2MMR"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3387,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2160,
-								2160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "userdata.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8333,
-								8333
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3649.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "userdata/76561198061893618.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "mmr.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2736,
-								2736
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "steamauth.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "apikey.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 77,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2096,
-								2096
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2211.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -770,7 +535,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 178.0,
+	"side_bar_width": 193.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
